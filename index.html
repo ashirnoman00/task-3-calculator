@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <div class="main">
+        <div class="navbar">
+            <h2>CALCULATOR <i class="fa-solid fa-calculator fa-beat-fade fa-xl" style="color: #0e7154;"></i></h2>
+            <div class="icon">
+                <h1><a href="https://www.linkedin.com/in/muhammad-ashir-noman-5224b3245/"><i class="fa-brands fa-linkedin"></i></a></h1>
+                <h1><a href="https://github.com/ashirnoman00"><i class="fa-brands fa-github"></i></a></h1>
+
+            </div>
+        </div>
+        <hr />
+        <div class="calculator">
+            <input id="perform">
+            <div class="cal-box">
+                <div class="row" id="key">
+                    <button class="row-1" onclick="addCalculate(`%`)">%</button>
+                    <button class="row-1" onclick="clearr()">CE</button>
+                    <button class="row-1" onclick="del()">Del</button>
+                    <button class="row-1" onclick="addCalculate(`/`)">/</button>
+
+                </div>
+                <div class="row" id="key">
+                    <button class="row-1" onclick="addCalculate(`7`)">7</button>
+                    <button class="row-1" onclick="addCalculate(`8`)">8 </button>
+                    <button class="row-1" onclick="addCalculate(`9`)">9</button>
+                    <button class="row-1" onclick="addCalculate(`*`)">*</button>
+
+                </div>
+                <div class="row" id="key">
+                    <button class="row-1" onclick="addCalculate(`4`)">4</button>
+                    <button class="row-1" onclick="addCalculate(`5`)">5</button>
+                    <button class="row-1" onclick="addCalculate(`6`)">6</button>
+                    <button class="row-1" onclick="addCalculate(`-`)">-</button>
+
+                </div>
+                <div class="row" id="key">
+                    <button class="row-1" onclick="addCalculate(`1`)">1</button>
+                    <button class="row-1" onclick="addCalculate(`2`)">2</button>
+                    <button class="row-1" onclick="addCalculate(`3`)">3</button>
+                    <button class="row-1" onclick="addCalculate(`+`)">+</button>
+
+                </div>
+                <div class="row" id="key">
+                    <button class="row-1" onclick="addCalculate(`00`)">00</button>
+                    <button class="row-1" onclick="addCalculate(`0`)">0</button>
+                    <button class="row-1" onclick="addCalculate(`.`)">.</button>
+                    <button class="row-1" onclick="calculate(`=`)">=</button>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+
+
+    <script src="app.js">
+
+    </script>
+
+</body>
+
+</html>
+
